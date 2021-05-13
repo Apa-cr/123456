@@ -1,0 +1,21 @@
+# make a histogram and boxplot of mpg values from the mt cars dataset
+data("mtcars")
+mtcars
+hist(mtcars)
+a="mtcars"
+a
+hist(a)
+mtcars
+mtcars= as.data.frame(mtcars)
+mtcars
+hist(mtcars)
+a=c("mtcars")
+a
+a=as.data.frame(mtcars)
+a
+hist(a)
+mtcars$mpg
+hist(mtcars$mpg)
+boxplot(mtcars$mpg)
+# also try by changing the colour
+

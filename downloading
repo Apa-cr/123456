@@ -1,0 +1,11 @@
+# how to download a tsv file
+download.file("https://raw.githubusercontent.com/sakshi0071/tsv-data/master/mydata.tsv", destfile = "mydata.tsv")
+x=read.table("mydata.tsv")              
+head(x)
+str(x)
+?head
+?T
+# how to save the file
+save.image("mydata.Rdata")
+load("mydata.Rdata")# load the file
+
